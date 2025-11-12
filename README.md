@@ -1,4 +1,5 @@
 # WebScrappinffinal — Web Scraper (Notebook + Script)
+[![Kaggle Badge](https://img.shields.io/badge/Kaggle-Vishesh%20Patel-blue?style=flat&logo=kaggle)](https://www.kaggle.com/visheshptel)
 
 This repository contains a Jupyter notebook (`Webscrappinffinal_clean.ipynb`) and an auto-generated Python script (`scraper_from_notebook.py`) that implement a web-scraping workflow.
 
