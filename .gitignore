@@ -1,0 +1,26 @@
+
+# Byte-compiled / cache
+__pycache__/
+*.pyc
+
+# Virtual env
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*
+!data/.gitkeep
+
+# Secrets
+.env
+*.creds
+*.key
+*.pem
+
+# OS/Editor
+.DS_Store
+.vscode/
+.idea/
