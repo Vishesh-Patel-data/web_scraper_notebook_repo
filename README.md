@@ -19,6 +19,30 @@ source .venv/bin/activate
 pip install -r requirements.txt
 python scraper_from_notebook.py
 ```
+## 📊 Data Sources
+
+This repository includes two curated Excel datasets capturing the **historical property sales records for the state of Connecticut**, with a particular focus on **Bridgeport** and **Fairfield City**.  
+These datasets are highly valuable for **price prediction, real-estate analytics, and machine-learning modeling**, as they provide detailed transaction history across owners, prices, and structural property features (e.g., number of bathrooms, fireplaces, etc.).
+
+### 1) `data/Merged_Property_Details.xlsx`
+- **Shape:** 98,654 rows × 8 columns  
+- **Purpose:** Final **merged dataset** created using a unique primary key to combine multiple data sources for **property price prediction**.  
+- **Coverage:** Historical transactions for properties across Connecticut, primarily Bridgeport and Fairfield.  
+- **Example columns:** `Owner`, `Sale Price`, `Certificate`, `Book & Page`, `Instrument`, `Sale Date`, `Address`, `Pincode`
+
+### 2) `data/Transformed_Sales_Data.xlsx`
+- **Sheets:** `Sheet1`  
+- **Shape:** 19,506 rows × 39 columns  
+- **Purpose:** Intermediate **transformed sales dataset** containing cleaned, structured transaction records prior to merging. It includes multi-owner sales history, property descriptions, and physical attributes such as **bathrooms, fireplaces, and land details**.  
+- **Example columns:** `Unique_ID`, `Owner_1`, `Sale_Price_1`, `Sale_Date_1`, `Owner_2`, `Sale_Price_2`, `Sale_Date_2`, …, `Address`, `Pincode`, `Description`, `Land`
+
+### 🔗 Download Options
+- **Direct (GitHub):** Download the Excel files directly from the `data/` folder:
+  - [`Merged_Property_Details.xlsx`](./data/Merged_Property_Details.xlsx)
+  - [`Transformed_Sales_Data.xlsx`](./data/Transformed_Sales_Data.xlsx)
+- **Kaggle Profile:** Additional datasets and CSV exports are shared on my Kaggle profile:  
+  👉 [https://www.kaggle.com/visheshptel](https://www.kaggle.com/visheshptel)
+
 
 ## 🧠 Notebook
 Open in Jupyter to run step-by-step:
