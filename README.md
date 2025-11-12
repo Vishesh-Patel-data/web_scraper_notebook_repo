@@ -1,6 +1,11 @@
 # WebScrappinffinal — Web Scraper (Notebook + Script)
 [![Kaggle Badge](https://img.shields.io/badge/Kaggle-Vishesh%20Patel-blue?style=flat&logo=kaggle)](https://www.kaggle.com/visheshptel)
 
+This project contains a Python web scraper designed to collect real property data directly from the [Connecticut Online Database (VGSI)](https://www.vgsi.com/connecticut-online-database/).  
+It extracts genuine property records — including **ownership details, sales history, sale prices, and transaction dates** — for multiple Connecticut cities.  
+The most interesting feature is the availability of **historical sales data**, making this dataset highly valuable for **price prediction models, trend analysis, and real-estate analytics.**
+
+
 This repository contains a Jupyter notebook (`Webscrappinffinal_clean.ipynb`) and an auto-generated Python script (`scraper_from_notebook.py`) that implement a web-scraping workflow.
 
 ## 📌 What this project includes
